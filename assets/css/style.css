@@ -3,6 +3,15 @@
 /* Font */
 /* ---- MIXINS ----*/
 /* ---- BODY ----*/
+body {
+  margin: 0;
+}
+
+@media screen and (min-width: 375px) {
+  body {
+    width: 375px;
+  }
+}
 /* ---- HEADER ----*/
 /* ---- FOOTER ----*/
 /* ---- SECTION ----*/
@@ -13,5 +22,6 @@
 /* ---- TITLE ----*/
 /* ---- PGRAPHS ----*/
 /* ---- Button ----*/
+/* ----- icons ---- */
 /* ---- Form ----*/
 /* ---- Image ----*/
