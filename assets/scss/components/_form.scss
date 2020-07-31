@@ -1,1 +1,12 @@
 /* ---- Form ----*/
+
+.input__links {
+  width: 100%;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 10px 20px; 
+  font-family: $font;
+  font-size: $size - 3px;
+  color: $grisOscuro;
+  font-weight: 500;
+}
