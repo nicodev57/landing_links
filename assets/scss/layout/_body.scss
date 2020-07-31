@@ -1,1 +1,13 @@
 /* ---- BODY ----*/
+
+body {
+  margin: 0;
+  font-family: $font;
+  overflow-x: hidden;
+}
+
+@media screen and (min-width: 375px) {
+  body {
+    @include mobile;
+  }
+}

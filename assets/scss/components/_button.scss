@@ -1,1 +1,29 @@
 /* ---- Button ----*/
+
+.button:hover {
+  cursor: pointer;
+}
+
+.info__button {
+  padding: 15px 40px;
+  font-size: $size;
+  font-weight: $pesoMayor;
+  color: white;
+  background-color: $azul;
+  border: none;
+  border-radius: 50px;
+  margin-top: 18px;
+  margin-bottom: 80px;
+}
+
+.sl__button {
+  width: 100%;
+  padding: 13px 20px;
+  margin-top: 20px;
+  font-size: $size;
+  font-weight: $pesoMayor;
+  color: white;
+  background-color: $azul;
+  border: none;
+  border-radius: 10px;
+}
