@@ -16,6 +16,12 @@ body {
 }
 /* ---- HEADER ----*/
 /* ---- FOOTER ----*/
+.footer {
+  background-color: #35323e;
+  text-align: center;
+  padding: 50px 0;
+}
+
 /* ---- SECTION ----*/
 .statistics {
   text-align: center;
@@ -110,9 +116,45 @@ body {
   justify-content: center;
 }
 
+.footer__title {
+  color: white;
+}
+
+.footer__links {
+  height: 150px;
+}
+
+.footer__logo {
+  margin-bottom: 40px;
+}
+
+.footer__social-media {
+  width: 170px;
+  margin: 70px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
 /* ---- NAV ----*/
 /* ---- Link ----*/
+.footer__link {
+  color: #bfbfbf;
+  font-weight: 500;
+  text-decoration: none;
+}
+
 /* ---- List ----*/
+.footer__list {
+  /*ul*/
+  list-style: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.footer__list li {
+  margin-bottom: 10px;
+}
+
 /* ---- TITLE ----*/
 .title {
   color: #232127;
