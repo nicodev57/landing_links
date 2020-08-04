@@ -24,6 +24,58 @@
   border-radius: 10px;
   padding: 20px;
   box-sizing: border-box;
-  margin-bottom: 100px;
+  position: relative;
 } 
+
+.statistics__info {
+  padding-top: 80px;
+}
+
+.statistics__cards {
+  margin-top: 60px;
+}
+
+.cards {
+  width: 290px;
+  height: 210px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  position: relative;
+}
+
+.cards:nth-of-type(1) {
+  margin-top: 100px;
+}
+
+.card_img {
+  background-color: $morado;
+  display: inline-block;
+  border-radius: 50%;
+  position: absolute;
+  top: -43px;
+  left: 122px;
+  width: 88px;
+  height: 85px;
+  box-sizing: border-box;
+  padding-top: 20px;
+}
+
+.line_separate {
+  height: 90px;
+  width: 7px;
+  background-color: $azul;
+  margin: 0 auto;
+}
+
+.cards__pgraph {
+  padding: 0 10px;
+}
+
+.boost__info {
+  height: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+}
 

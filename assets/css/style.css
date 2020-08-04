@@ -17,6 +17,20 @@ body {
 /* ---- HEADER ----*/
 /* ---- FOOTER ----*/
 /* ---- SECTION ----*/
+.statistics {
+  text-align: center;
+  background-color: #f2f2f3;
+  margin-top: -75px;
+  padding-bottom: 80px;
+}
+
+.boost__links {
+  height: 290px;
+  text-align: center;
+  background-color: #3b3054;
+  background-image: url(/assets/images/bg-boost-mobile.svg);
+}
+
 /* ---- DIV ----*/
 /* main */
 .main1 {
@@ -41,7 +55,59 @@ body {
   border-radius: 10px;
   padding: 20px;
   box-sizing: border-box;
-  margin-bottom: 100px;
+  position: relative;
+}
+
+.statistics__info {
+  padding-top: 80px;
+}
+
+.statistics__cards {
+  margin-top: 60px;
+}
+
+.cards {
+  width: 290px;
+  height: 210px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  position: relative;
+}
+
+.cards:nth-of-type(1) {
+  margin-top: 100px;
+}
+
+.card_img {
+  background-color: #3b3054;
+  display: inline-block;
+  border-radius: 50%;
+  position: absolute;
+  top: -43px;
+  left: 122px;
+  width: 88px;
+  height: 85px;
+  box-sizing: border-box;
+  padding-top: 20px;
+}
+
+.line_separate {
+  height: 90px;
+  width: 7px;
+  background-color: #2acfcf;
+  margin: 0 auto;
+}
+
+.cards__pgraph {
+  padding: 0 10px;
+}
+
+.boost__info {
+  height: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* ---- NAV ----*/
@@ -58,12 +124,35 @@ body {
   line-height: 47px;
 }
 
+.statistics__info--title {
+  font-size: 27px;
+  margin-top: 80px;
+}
+
+.cards_title {
+  margin-top: 55px;
+}
+
+.boost__title {
+  color: white;
+  font-size: 26px;
+}
+
 /* ---- PGRAPHS ----*/
+.pgraph {
+  color: #9e9aa7;
+}
+
 .info__pgraph {
   margin-top: 0;
   font-size: 18px;
   padding: 0 30px;
-  color: #9e9aa7;
+}
+
+.statistics__info--pgraph {
+  padding: 0 25px;
+  line-height: 27px;
+  font-size: 16px;
 }
 
 /* ---- Span ---- */
@@ -99,6 +188,12 @@ body {
   background-color: #2acfcf;
   border: none;
   border-radius: 10px;
+}
+
+.boost__button {
+  margin: 0;
+  width: 183px;
+  margin: 0 auto;
 }
 
 /* ----- icons ---- */

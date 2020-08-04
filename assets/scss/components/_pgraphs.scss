@@ -1,8 +1,19 @@
 /* ---- PGRAPHS ----*/
 
+.pgraph {
+  color: $grisVioleta;
+}
+
+
 .info__pgraph {
   margin-top: 0;
   font-size: $size;
   padding: 0 30px;
-  color: $grisVioleta;
+  
+}
+
+.statistics__info--pgraph {
+  padding: 0 25px;
+  line-height: 27px;
+  font-size: $size - 2px;
 }
